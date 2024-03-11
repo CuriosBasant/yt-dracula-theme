@@ -1,0 +1,18 @@
+html:not(.style-scope)[dark],
+:not(.style-scope)[dark] {
+  --yt-spec-general-background-a: #282b36 !important;
+  --yt-spec-brand-background-solid: #22232c !important;
+  /* --yt-spec-brand-background-solid: #353847 !important; */
+  --yt-spec-brand-background-primary: #191b21fa !important;
+  --yt-spec-brand-icon-inactive: #6273a4 !important;
+  --yt-compact-link-icon-color: #6273a4 !important;
+  --yt-spec-text-primary: #f8f8f2 !important;
+  --yt-spec-10-percent-layer: #44475a !important;
+  --ytd-searchbox-background: #44475a !important;
+  --ytd-searchbox-legacy-button-color: #282b36 !important;
+  --yt-spec-badge-chip-background: #44475a !important;
+}
+
+ytd-rich-item-renderer.style-scope.ytd-rich-grid-renderer:first-child {
+  display: none;
+}

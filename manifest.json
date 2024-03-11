@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Dracula Theme for YouTube",
+  "description": "This extension changes the youtube page theme to match dracula theme",
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "css": ["theme.css"]
+    }
+  ],
+  "version": "0.1.0"
+}
